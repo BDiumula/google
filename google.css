@@ -1,0 +1,68 @@
+body
+{width: 100%;
+height: 100%;
+margin: 0%;
+}
+
+header
+{
+	display: flex;
+	justify-content: flex-end;
+}
+.connexion
+{
+	border: 3px blue solid;
+	padding: 5px;
+	margin: 5px;
+	text-decoration: none;
+	background-color: blue;
+	color: white;
+}
+.element
+{
+	text-decoration: none;
+	color: black;
+}
+.element:hover
+{
+	text-decoration: underline;
+}
+#logo
+{
+	width: 300px;
+	margin:auto;
+}
+article
+{
+	display: flex;
+	flex-flow: wrap column;
+	align-content: center;
+}
+#text
+{
+	border-radius: 10px;
+	border-style: inset;
+	width:350px;
+	display:flex;
+	justify-content:center;
+}
+input[type=button]
+{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	border-radius: 2px;
+	background-color: grey;
+}
+
+footer
+{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+.totor {
+	height: 40px;
+	background-color: #a9c8f4;
+	border-top: 1px solid blueviolet;
+}
