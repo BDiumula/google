@@ -30,21 +30,30 @@ header
 #logo
 {
 	width: 300px;
-	margin:auto;
 }
 article
 {
 	display: flex;
-	flex-flow: wrap column;
+	flex-direction: column;
 	align-content: center;
+	align-items: center;
+	top: -80%;
+	transform: translateY(80%);
 }
 #text
 {
 	border-radius: 10px;
-	border-style: inset;
+	border-style: solid;
 	width:350px;
 	display:flex;
 	justify-content:center;
+}
+#boutons
+{
+	width: 300px;
+	display: flex;
+	justify-content: space-around;
+
 }
 input[type=button]
 {
@@ -52,6 +61,7 @@ input[type=button]
 	justify-content: space-around;
 	flex-direction: row;
 	border-radius: 2px;
+	font-size: medium;
 	background-color: grey;
 }
 
@@ -62,7 +72,25 @@ footer
 	bottom: 0px;
 }
 .totor {
+	display: flex;
+	justify-content: space-between;
 	height: 40px;
 	background-color: #a9c8f4;
 	border-top: 1px solid blueviolet;
+}
+.left
+{
+display: flex;
+justify-content: space-between;
+width: 35%;
+text-decoration: none;
+align-items: center;
+}
+.right
+{
+	text-decoration: grey none;
+	display: flex;
+	justify-content: space-between;
+	width: 32%;
+	align-items: center;
 }
